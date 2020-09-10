@@ -15,6 +15,8 @@
 		F210008D2509ED4600CB65AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F210008B2509ED4600CB65AF /* LaunchScreen.storyboard */; };
 		F21000982509ED4600CB65AF /* OluOluTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21000972509ED4600CB65AF /* OluOluTests.swift */; };
 		F21000A32509ED4600CB65AF /* OluOluUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21000A22509ED4600CB65AF /* OluOluUITests.swift */; };
+		F21000B12509FB0E00CB65AF /* IngreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21000B02509FB0E00CB65AF /* IngreCell.xib */; };
+		F21000B32509FBEB00CB65AF /* IngreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21000B22509FBEB00CB65AF /* IngreCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F210009E2509ED4600CB65AF /* OluOluUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OluOluUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21000A22509ED4600CB65AF /* OluOluUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OluOluUITests.swift; sourceTree = "<group>"; };
 		F21000A42509ED4600CB65AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21000B02509FB0E00CB65AF /* IngreCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IngreCell.xib; sourceTree = "<group>"; };
+		F21000B22509FBEB00CB65AF /* IngreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngreCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +106,9 @@
 				F21000802509ED4300CB65AF /* AppDelegate.swift */,
 				F21000822509ED4300CB65AF /* SceneDelegate.swift */,
 				F21000842509ED4300CB65AF /* ViewController.swift */,
+				F21000B22509FBEB00CB65AF /* IngreCollectionViewCell.swift */,
 				F21000862509ED4300CB65AF /* Main.storyboard */,
+				F21000B02509FB0E00CB65AF /* IngreCell.xib */,
 				F21000892509ED4600CB65AF /* Assets.xcassets */,
 				F210008B2509ED4600CB65AF /* LaunchScreen.storyboard */,
 				F210008E2509ED4600CB65AF /* Info.plist */,
@@ -235,6 +241,7 @@
 				F210008D2509ED4600CB65AF /* LaunchScreen.storyboard in Resources */,
 				F210008A2509ED4600CB65AF /* Assets.xcassets in Resources */,
 				F21000882509ED4300CB65AF /* Main.storyboard in Resources */,
+				F21000B12509FB0E00CB65AF /* IngreCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21000B32509FBEB00CB65AF /* IngreCollectionViewCell.swift in Sources */,
 				F21000852509ED4300CB65AF /* ViewController.swift in Sources */,
 				F21000812509ED4300CB65AF /* AppDelegate.swift in Sources */,
 				F21000832509ED4300CB65AF /* SceneDelegate.swift in Sources */,
